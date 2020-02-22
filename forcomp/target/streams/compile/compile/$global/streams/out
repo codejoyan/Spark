@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\joyan\Documents\SparkScala\coursera\forcomp\src\main\scala\forcomp\Anagrams.scala:39:86: method mapValues in trait MapOps is deprecated (since 2.13.0): Use .view.mapValues(f). A future version will include a strict version of this method (for now, .view.mapValues(f).toMap).[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def wordOccurrences(w: Word): Occurrences = w.toLowerCase().toList.groupBy(c => c).mapValues(_.size).toList.sorted[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

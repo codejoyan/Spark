@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\joyan\Documents\SparkScala\coursera\objsets\src\main\scala\objsets\TweetSet.scala:226:44: missing parameter type for expanded function ((<x$1: error>) => x$1.union(tweetData.filter(((tw) => ((x$2) => tw.text.contains(x$2))))))[0m
+[0m[[0m[31merror[0m] [0m[0m    keywords.foldLeft(new Empty: TweetSet)(_.union(tweetData.filter(tw => tw.text.contains(_))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

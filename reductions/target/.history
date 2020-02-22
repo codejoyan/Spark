@@ -1,0 +1,23 @@
+eclipse
+exit
+eclipse
+exit
+reload
+eclipse
+exit
+compile
+runMain reductions.ParallelCountChangeRunner
+compile
+runMain reductions.ParallelCountChangeRunner
+compile
+runMain reductions.ParallelCountChangeRunner
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+exit
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+compile
+submit mba4joyan@yahoo.co.in 3GuCrBsSign3hUSJ
+submit mba4joyan@yahoo.co.in VwijhGPtLdoiMx9x

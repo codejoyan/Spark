@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(forcomp.AnagramsSuite, sbt.ForkMain$AnnotatedFingerscan@1b72183, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mdictionaryByOccurrences.get: eat (10pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mdictionaryByOccurrences.get: eat (10pts)[0m finished, took 1.17 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msentenceOccurrences: abcd e (5pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msentenceOccurrences: abcd e (5pts)[0m finished, took 0.109 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordAnagrams player (2pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordAnagrams player (2pts)[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mcombinations: [] (8pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mcombinations: [] (8pts)[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msentence anagrams: Linux rulez (10pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msentence anagrams: Linux rulez (10pts)[0m finished, took 0.094 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msubtract: lard - r (10pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msubtract: lard - r (10pts)[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordAnagrams married (2pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordAnagrams married (2pts)[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msentence anagrams: [] (10pts)[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[31msentence anagrams: [] (10pts)[0m failed: java.lang.[31mUnsupportedOperationException[0m: empty.reduceRight, took 0.078 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.reduceRight(IterableOnce.scala:777)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.IterableOnceOps.reduceRight$(IterableOnce.scala:774)[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.collection.AbstractIterable.reduceRight(Iterable.scala:904)[0m
+[0m[[0m[31merror[0m] [0m[0m    at forcomp.Anagrams$.sentenceOccurrences(Anagrams.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m    at forcomp.Anagrams$.sentenceAnagrams(Anagrams.scala:168)[0m
+[0m[[0m[31merror[0m] [0m[0m    at forcomp.AnagramsSuite.sentence anagrams: [] (10pts)([35mAnagramsSuite.scala[0m:[33m63[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36msentence anagrams: [] (10pts)[0m finished, took 0.078 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordOccurrences: Robert (3pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordOccurrences: Robert (3pts)[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mcombinations: abba (8pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mcombinations: abba (8pts)[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordOccurrences: abcd (3pts)[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest forcomp.[33mAnagramsSuite[0m.[36mwordOccurrences: abcd (3pts)[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, 11 total, 1.544s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 11 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 11, Failed 1, Errors 0, Passed 10[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	forcomp.AnagramsSuite[0m
